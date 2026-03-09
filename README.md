@@ -27,7 +27,7 @@ Durante a exploração da aplicação foram identificados os seguintes fluxos pr
 
 Fluxo principal esperado do usuário:
 
-Cadastrar curso -> visualizar curso na lista -> excluir o curso (quando necessário).
+Cadastrar curso → visualizar curso na lista → excluir o curso (quando necessário)
 
 ---
 
@@ -77,7 +77,21 @@ Durante a execução foram registrados:
 - Status do teste
 - Evidências da execução
 
+🗒️ Resumo da execução dos testes:
+
+Cenários criados: 15  
+Testes executados: 15  
+Testes aprovados: 4  
+Testes falhos: 11  
+Bugs identificados: 11 
+
 Os resultados dos testes estão registrados na planilha juntamente com o status de execução.
+
+### Ambiente de teste
+
+Navegador: Google Chrome  
+Sistema operacional: Windows 10  
+Tipo de teste: Testes manuais funcionais e exploratórios
 
 ---
 
@@ -85,7 +99,7 @@ Os resultados dos testes estão registrados na planilha juntamente com o status 
 
 Os bugs encontrados durante a execução dos testes foram documentados no arquivo:
 
-[docs/bugs-report.md]
+[Relatório de bugs](docs/bugs-report.md)
 
 Cada bug contém:
 
@@ -101,4 +115,12 @@ Cada bug contém:
 
 As evidências da execução dos testes estão disponíveis no link abaixo:
 
-https://drive.google.com/drive/folders/1hr2K-fes-teL4WAmnyQKiBXjwmvZUxPG?usp=sharing
+https://drive.google.com/drive/folders/1-QXBo8ETn2YDqnJBKH06oroomY7f1z7c?usp=sharing
+
+---
+
+## ✅ Conclusão
+
+A execução dos testes permitiu validar os principais fluxos da aplicação e identificar diversos problemas relacionados à validação de dados e consistência das informações cadastradas.
+
+A documentação produzida neste repositório apresenta os cenários de teste, resultados da execução e os defeitos encontrados durante a análise da aplicação.
